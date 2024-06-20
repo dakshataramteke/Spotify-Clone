@@ -1,1 +1,1 @@
-This Project is Spotify Clone
+The Spotify Clone is a feature-rich music streaming application designed to provide a seamless and enjoyable listening experience. It offers a vast library of songs, albums, and playlists, emulating the core functionalities of Spotify. Users can explore new music, create custom playlists, and enjoy their favorite tracks on the go.
