@@ -2,7 +2,7 @@
     --dark:black;
     --light:white;
     --black-grey:rgb(55, 53, 53);
-    --grey: rgb(90, 87, 87);
+    --grey: rgb(78, 75, 75);
     --black-black: rgb(39, 38, 38);
 }
 body{
@@ -19,12 +19,12 @@ body{
 }
 .sidebar{
     background-color: var(--dark);
-    width: 300px;
+    width: 290px;
     margin-right: 0.5rem;
     border-radius: 1rem;
 }
 .main-content{
-    background-color:var(--black-grey);
+    background-color:var(--black-black);
     flex: 1;
     overflow: auto;
     border-radius: 1rem;
@@ -113,7 +113,6 @@ a{
     border-radius: 100px;
     padding: 0.25rem 1rem;
     font-weight: 500;
-    /* margin-top: 0.5rem; */
     height: 2rem;
     width: fit-content;
 }
@@ -136,7 +135,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left: 9.5rem; */
 }
 .nav-item{
     margin-left: 1rem;
@@ -152,12 +150,12 @@ a{
         display: none;
     }
 }
-/* Cards */
+/*== Cards == */
 .card{
-    background-color: var(--black);
+    background-color: var(--black-grey);
     width: 160px;
     border-radius: 10px;
-    margin-right: 0.5rem;
+    margin:1rem 0 0 0.5rem;
     padding: 0.5rem;
 }
 .card-img{
@@ -166,10 +164,11 @@ a{
 }
 .cards-container{
     display: flex;
+    flex-wrap: wrap;
 }
 .card-title{
     font-weight: 600;
-    /* font-size: 1.25rem; */
+    font-size: 1rem;
 }
 .card-info{
     font-size: 0.85rem;
