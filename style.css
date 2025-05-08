@@ -179,18 +179,31 @@ a{
 
 /* === Footer ===  */
 .footer{
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .line{
     width: 90%;
-    height: 50%;
+    /* height: 50%; */
     border-top: 1px solid white;
     opacity: 0.4;
 }
-
+.info_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.info_footer ul{
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+    margin-bottom: 5rem;
+}
+.info_footer li{
+    color: var(--light);
+    font-size: 1rem;
+}
 /* === Music Player ===  */
 .music-player{
     display: flex;
